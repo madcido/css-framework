@@ -1,1 +1,14 @@
-body{}
+.container {
+    margin: 0 auto;
+    width: auto;
+    max-width: 960px;
+}
+
+.navbar {
+    height: 48px;
+    background: #92CEDC;
+}
+
+.main {
+    background: #F7E4F5;
+}
