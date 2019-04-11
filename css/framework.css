@@ -21,11 +21,13 @@ img{
   width: auto;
   max-width: 960px;
   margin: 0 auto;
+  flex-wrap: wrap;
+  
 }
 .c1{
   box-sizing: border-box;
   margin: 0 10px;
-  flex: 1 1 60px;
+  flex: 4 4 60px;
 }
 .c2{
   box-sizing: border-box;
@@ -35,7 +37,7 @@ img{
 .c3{
   box-sizing: border-box;
   margin: 0 10px;
-  flex: 3 3 220px;
+  flex: 4 4 220px;
 }
 .c4{
   box-sizing: border-box;
@@ -115,4 +117,12 @@ img{
 }
 .align-stretch{
   align-items: stretch;
+}
+
+
+@media (max-width: 768px) {
+  .c3-responsive {
+      margin: 0;
+      flex: 1 1 100%;  
+  }
 }
