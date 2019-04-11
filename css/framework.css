@@ -25,62 +25,74 @@ img{
 .c1{
   box-sizing: border-box;
   margin: 0 10px;
-  flex: 1 1 60px;
+  flex: 0 0 60px;
+  max-width: 95%
 }
 .c2{
   box-sizing: border-box;
   margin: 0 10px;
-  flex: 2 2 140px;
+  flex: 0 0 140px;
+  max-width: 95%
 }
 .c3{
   box-sizing: border-box;
   margin: 0 10px;
-  flex: 3 3 220px;
+  flex: 0 0 220px;
+  max-width: 95%
 }
 .c4{
   box-sizing: border-box;
   margin: 0 10px;
-  flex: 4 4 300px;
+  flex: 0 0 300px;
+  max-width: 95%
 }
 .c5{
   box-sizing: border-box;
   margin: 0 10px;
-  flex: 5 5 380px;
+  flex: 0 0 380px;
+  max-width: 95%
 }
 .c6{
   box-sizing: border-box;
   margin: 0 10px;
-  flex: 6 6 460px;
+  flex: 0 0 460px;
+  max-width: 95%
 }
 .c7{
   box-sizing: border-box;
   margin: 0 10px;
-  flex: 7 7 540px;
+  flex: 0 0 540px;
+  max-width: 95%
 }
 .c8{
   box-sizing: border-box;
   margin: 0 10px;
-  flex: 8 8 620px;
+  flex: 0 0 620px;
+  max-width: 95%
 }
 .c9{
   box-sizing: border-box;
   margin: 0 10px;
-  flex: 9 9 700px;
+  flex: 0 0 700px;
+  max-width: 95%;
 }
 .c10{
   box-sizing: border-box;
   margin: 0 10px;
-  flex: 10 10 780px;
+  flex: 0 0 780px;
+  max-width: 95%
 }
 .c11{
   box-sizing: border-box;
   margin: 0 10px;
-  flex: 11 11 860px;
+  flex: 0 0 860px;
+  max-width: 95%
 }
 .c12{
   box-sizing: border-box;
   margin: 0 10px;
-  flex: 12 12 940px;
+  flex: 0 0 940px;
+  max-width: 95%
 }
 
 /* HORIZONTAL ALIGNMENT */
