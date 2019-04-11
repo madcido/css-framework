@@ -19,11 +19,17 @@
 
 }
 
+.cats-black img, .cats-orange img, .cats-white img, .cats-brown img, .cats-tuxedo img {
+    
+    border-radius: 25px;
+   
+
+}
+
 .cats-black img:hover, .cats-orange img:hover, .cats-white img:hover, .cats-brown img:hover, .cats-tuxedo img:hover {
     width: 103%;
     height: 103%;
     -webkit-box-shadow: 0px 0px 9px -1px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 9px -1px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 9px -1px rgba(0,0,0,0.75);
    
 
