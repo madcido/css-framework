@@ -91,6 +91,10 @@
   z-index: 2;
 }
 
+.odin-nav-button img:hover + .pop-menu{
+  display: block;
+}
+
 .odin-main{
   padding: 80px 0;
 }
@@ -191,7 +195,7 @@
 }
 
 .odin-footer .social-link i {
-  margin: 0 15px;
+  margin: 0 20px;
   font-size: 25px;
   color: #ce973e;
 }
@@ -246,9 +250,6 @@
   }
   .odin-footer .odin-brand, .odin-footer .odin-footer-links  {
    display: none;
-  }
-  .odin-footer .social-link i {
-    margin: 0 35px;
   }
 }
 @media (max-width: 1000px){
