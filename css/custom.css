@@ -1,119 +1,11 @@
-.navbar {
-  background-color: #000;
-  border-bottom: 1px solid black;
-  height: 40px;
-  line-height: 40px;
-  text-align: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 5;
-}
-
-.navbar a {
-  color: #fff;
-}
-
-.navbar a:hover {
-  font-weight: bold;
-}
-.small-nav {
-  display: none;
-  text-align: right;
-  margin-right: 10px;
-  color: #fff;
-}
-.small-nav p {
-  display: inline-block;
-  cursor: pointer;
-  font-weight: bold;
-}
-.small-nav a {
-  display: inline-block;
-  color: #fff;
-}
 .pop-menu {
   display: none;
   position: absolute;
 }
-.small-nav .pop-menu{
-  top: 40px;
-  right: 0;
-  width: 150px;
-  background-color: #000;
-  text-align: center;
-}
-.small-nav p:hover + .pop-menu,
-.small-nav p:focus + .pop-menu,
-.odin-nav-button img:hover + .pop-menu{
-  display: block;
-}
+
 .pop-menu:hover {
   display: block;
 }
-@media (max-width: 850px) {
-  .small-nav {
-    display: block;
-  }
-  .big-nav {
-    display: none;
-  }
-}
-
-.main h1 {
-  margin-top: 15px;
-  margin-left: 10px;
-  margin-bottom: 25px;
-  font-size: 25px;
-  font-family: "Courier New", Courier, monospace;
-}
-
-.cats-black,
-.cats-orange,
-.cats-white,
-.cats-brown,
-.cats-tuxedo {
-  padding-top: 50px;
-}
-
-.cats-black img,
-.cats-orange img,
-.cats-white img,
-.cats-brown img,
-.cats-tuxedo img {
-  border-radius: 25px;
-  transition: all 0.2s;
-}
-
-.cats-black img:hover,
-.cats-orange img:hover,
-.cats-white img:hover,
-.cats-brown img:hover,
-.cats-tuxedo img:hover {
-  transform: scale(1.03);
-  -webkit-box-shadow: 0px 0px 9px -1px rgba(0, 0, 0, 0.75);
-  box-shadow: 0px 0px 9px -1px rgba(0, 0, 0, 0.75);
-}
-
-.footer {
-  margin-top: 40px;
-  height: 40px;
-  line-height: 40px;
-  background: #000;
-  color: #fff;
-  font-weight: 600;
-}
-
-.footer p {
-  display: inline-block;
-}
-
-.footer img {
-  width: 40px;
-  height: 30px;
-}
-
 /* ODIN PROJECT FROM HERE ON */
 
 .odin a{
@@ -298,6 +190,17 @@
   margin: 0 20px;
 }
 
+.odin-footer .social-link i {
+  margin: 0 15px;
+  font-size: 25px;
+  color: #ce973e;
+}
+
+.odin-footer .social-link i:hover {
+
+  color: #000;
+}
+
 .cat-link{
   position: fixed;
   bottom: 40px;
@@ -335,7 +238,26 @@
     display: block;
   }
   .outro3 div{
+    display: block;
     flex-direction: column;
+    
+  }
+
+
+  .outro3 {
+    margin: 15px;
+  }
+
+  .odin-footer {
+    padding: 26px 0;
+  }
+
+  .odin-footer .odin-brand, .odin-footer .odin-footer-links  {
+   display: none;
+  }
+
+  .odin-footer .social-link i {
+    margin: 0 35px;
   }
 }
 @media (max-width: 1000px){
@@ -345,7 +267,7 @@
   .odin-lesson{
     margin: 0 auto;
   }
-  .outro1, outro2, outro3{
+  .outro1, .outro2, .outro3{
     margin: 80px 20px;
   }
 }
