@@ -304,6 +304,7 @@
   right: 40px;
   width: 80px;
   transform-origin: center bottom;
+  text-align: center;
   z-index: 2;
 }
 
