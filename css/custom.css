@@ -197,7 +197,6 @@
 }
 
 .odin-footer .social-link i:hover {
-
   color: #000;
 }
 
@@ -241,22 +240,13 @@
   .outro3 div{
     display: block;
     flex-direction: column;
-    
   }
-
-
-  .outro3 {
-    margin: 15px;
-  }
-
   .odin-footer {
     padding: 26px 0;
   }
-
   .odin-footer .odin-brand, .odin-footer .odin-footer-links  {
    display: none;
   }
-
   .odin-footer .social-link i {
     margin: 0 35px;
   }
