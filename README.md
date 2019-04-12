@@ -8,8 +8,7 @@ Cloned Page: https://www.theodinproject.com/courses/html5-and-css3/lessons/desig
 
 Preview:
 
+https://htmlpreview.github.io/?https://github.com/madcido/css-framework/blob/master/index.html
 
-https://htmlpreview.github.io/?https://github.com/madcido/css-framework/blob/development/index.html
-
-https://madcido.github.io/css-framework/ <- NOT LIVE YET
+https://madcido.github.io/css-framework/
 
