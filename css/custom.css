@@ -302,6 +302,10 @@
   z-index: 2;
 }
 
+.cat-link a {
+  color: #000;
+}
+
 .cat-link:hover {
   animation-name: shake;
   animation-duration: 0.5s;
