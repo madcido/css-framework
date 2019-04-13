@@ -60,7 +60,7 @@
 }
 
 .odin-brand{
-  width: 160px;
+  width: 260px;
   margin: 0 20px;
 }
 
@@ -105,15 +105,17 @@
 }
 
 .odin-head img {
-  width: 110px;
-  height: 110px;
+  width: 90px;
+  height: 90px;
   padding: 10px;
+  border-radius: 50%;
+  box-shadow: 0 0 9px 2px rgba(0,0,0,0.1);
 }
 
 .odin-side ul{
   font-size: 14px;
   position: sticky;
-  top: 60px;
+  top: 90px;
 }
 
 .odin-side li{
@@ -188,6 +190,7 @@
 
 .odin-footer{
   padding: 80px 0;
+  width: 100%;
 }
 
 .odin-footer-links div{
@@ -209,7 +212,7 @@
   bottom: 40px;
   right: 40px;
   width: 80px;
-  transform-origin: center bottom;
+  transform-origin: center 95%;
   text-align: center;
   z-index: 2;
 }
@@ -225,13 +228,16 @@
 }
 
 @keyframes shake {
-  25% {transform: rotate(10deg);}
+  25% {transform: rotate(5deg);}
   50% {transform: rotate(0deg);}
-  75% {transform: rotate(-10deg);}
+  75% {transform: rotate(-5deg);}
 }
 
 
-@media (max-width: 800px){
+@media (max-width: 900px){
+  .odin-nav .odin-brand{
+    width: 160px;
+  }
   .odin-nav-menu{
     display: none;
   }
@@ -248,7 +254,7 @@
   .odin-footer {
     padding: 26px 0;
   }
-  .odin-footer .odin-brand, .odin-footer .odin-footer-links  {
+  .odin-footer .odin-brand, .odin-footer-links  {
    display: none;
   }
 }
